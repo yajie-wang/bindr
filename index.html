@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bindr | Dating Site For BMCC Students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <h1 id="logo">Bindr</h1>
+        <div id="mobilenav"><a href="#">&#9776;</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="match.html">Match</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="hero">
+        <div class="c33">
+            <p>Dating Site & App For BMCC Students</p>
+        </div>
+        <div class="c33">
+        </div>
+        <div class="c33">
+        <a href="./register.html"><input type="button" name="register" value="Register" class="btn"></a>
+        <a href="./login.html"><input type="button" name="login" value="Login" class="btn"></a>
+        </div>
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $('#mobilenav').click(function() {
+            $('nav').toggle();
+        });
+
+        $(window).resize(function() {
+            if (window.innerWidth > 768) {
+                $('nav').show();
+            };
+        });
+
+    </script>
+    <footer>
+        <p>&copy; 2020. Designed by Group 1. All rights reserved. </p>
+    </footer>
+</body>
+
+
+</html>
